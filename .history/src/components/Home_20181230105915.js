@@ -14,7 +14,7 @@ class Home extends Component {
         
         <hr/>
         <h3>Feature teachers</h3>
-        <Link to="/teachers/Bill">Bill geitz</Link>
+        <
       </div>
     );
   }

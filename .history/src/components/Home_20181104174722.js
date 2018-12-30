@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
 
 class Home extends Component {    
   
@@ -12,9 +11,6 @@ class Home extends Component {
         <p>We grew out of Beetroot, a successful IT company from Sweden. But unlike Beetroot, we have no commercial goals. We aim to maximize social impact instead of profit. We want individuals to develop and start new careers, and we want their communities to develop with them. In order to keep our focus on this mission, we have decided to operate as a non-profit. Money is never paid out to owners or investors. Instead, we reinvest that money to improve our courses and teaching conditions.</p>
         <hr />
         
-        <hr/>
-        <h3>Feature teachers</h3>
-        <Link to="/teachers/Bill">Bill geitz</Link>
       </div>
     );
   }

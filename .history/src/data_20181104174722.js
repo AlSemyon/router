@@ -98,7 +98,7 @@ export const javaScriptCourses =  [
     },
     {
         id: 3,
-        name: "DanAbramov",
+        name: "Dan Abramov",
         bio: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. sPraesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.",
         im: "/i/dan.jpg"
     }

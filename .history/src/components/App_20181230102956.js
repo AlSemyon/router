@@ -5,8 +5,6 @@ import Home from './Home'
 import About from './About'
 import Teachers from './Teachers'
 import Courses from './Courses'
-import NotFound from './NotFound'
-import Featured from './Featured'
 
 const App = () => (
     <Router>
@@ -15,12 +13,8 @@ const App = () => (
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={About}/>
-
-                <Route exact path="/teachers" component={Teachers}/>
-                <Route path="/teachers/:name" component={Featured}/>
-
+                <Route path="/teachers" component={Teachers}/>
                 <Route path="/courses" component={Courses}/>
-                <Route component={NotFound}/>
             </Switch>
         </div>
     </Router>

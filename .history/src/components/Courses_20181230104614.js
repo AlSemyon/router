@@ -22,8 +22,8 @@ const Courses = ({match}) => (
            render={() => <CoursesContainer data={htmlCourses}/>}/>
     <Route path={`${match.url}/css`}
            render={() => <CoursesContainer data={frontEnd}/>}/>
-    <Route path={`${match.url}/javascript`}
-           render={() => <CoursesContainer data={javaScriptCourses}/>}/>
+    <Route path={`${match.url}/javascript`} component={JavaScript}
+           render={() => <CoursesContainer data={htmlCourses}/>}/>
 
   </div>
 );

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Route, NavLink, Redirect} from 'react-router-dom'
-import CoursesContainer from './courses/CoursesContainer'
 import {frontEnd, htmlCourses, javaScriptCourses} from '../data'
 
 
@@ -17,13 +16,9 @@ const Courses = ({match}) => (
     
     {/* Nested Routes */}
     <Route exact path={match.path} render={() => <Redirect to={`${match.url}/html`}/>}/>
-    
-    <Route path={`${match.url}/html`} 
-           render={() => <CoursesContainer data={htmlCourses}/>}/>
-    <Route path={`${match.url}/css`}
-           render={() => <CoursesContainer data={frontEnd}/>}/>
-    <Route path={`${match.url}/javascript`}
-           render={() => <CoursesContainer data={javaScriptCourses}/>}/>
+    <Route path={`${match.url}/html`} component={HTML}/>
+    <Route path={`${match.url}/css`} component={CSS}/>
+    <Route path={`${match.url}/javascript`} component={JavaScript}/>
 
   </div>
 );
