@@ -6,9 +6,9 @@ const Header = () => (
     <div className="logo"><img className="fluid-img"  src="/i/logo.svg" /></div>
     <ul className="main-nav">
        <li><NavLink exact to='/' activeStyle={{background: 'tomato'}}>Home</NavLink></li>
-       <li><NavLink to='/about' activeClassName="myActiveClass">About</NavLink></li>
-       <li><NavLink to='/teachers'>Teachers</NavLink></li>
-       <li><NavLink to='/courses'>Courses</NavLink></li>
+       <li><NavLink exact to='/about' activeClassName="myActiveClass">About</NavLink></li>
+       <li><NavLink exact to='/teachers'>Teachers</NavLink></li>
+       <li><NavLink exact to='/courses'>Courses</NavLink></li>
     </ul>    
   </header>
 );
